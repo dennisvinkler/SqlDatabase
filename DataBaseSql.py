@@ -4,12 +4,15 @@ import mysql.connector
 database = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='your_password',
+    password='Anna1995',
     port='3306',
-    database="Galactic_empire"
+   database="Galactic_empire"
 )
 
 cursor = database.cursor()
+
+#Initiate this command incase you did not create the new database, after command completed the command can be removed or commented for future use.
+#cursor.execute("CREATE DATABASE Galactic_empire")
 
 # SQL statement to create Planets, Characters, Foods, and Ships tables
 create_tables_statements = [
