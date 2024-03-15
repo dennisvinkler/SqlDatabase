@@ -1,0 +1,59 @@
+Retrieve all columns from the Planets table.
+SELECT * FROM Planets;
+
+Retrieve the names of all planets from the Planets table.
+SELECT Name FROM Planets;
+
+Retrieve the names and terrains of all planets from the Planets table.
+SELECT Name, Terrain FROM Planets;
+
+Retrieve the names of all characters from the Characters table.
+SELECT Name FROM Characters;
+
+Retrieve the names and genders of all characters from the Characters table.
+SELECT Name, Gender FROM Characters;
+
+Retrieve the names of all foods from the Foods table.
+SELECT Name FROM Foods;
+
+Retrieve the names and types of all foods from the Foods table.
+SELECT Name, Type FROM Foods;
+
+Retrieve the names of all ships from the Ships table.
+SELECT Name FROM Ships;
+
+Retrieve the names and crew sizes of all ships from the Ships table.
+SELECT Name, CrewSize FROM Ships;
+
+Retrieve the name and population of planets with a population greater than 1,000,000 from the Planets table.
+SELECT Name, Population FROM Planets WHERE Population > 1000000;
+
+Retrieve the names of characters who are male from the Characters table.
+SELECT Name FROM Characters WHERE Gender = 'Male';
+
+Retrieve the names of characters who are female from the Characters table.
+SELECT Name FROM Characters WHERE Gender = 'Female';
+
+Retrieve the names of foods that are eatable by humans from the Foods table.
+SELECT Name FROM Foods WHERE EatableByHumans = TRUE;
+
+Retrieve the names of foods that are not eatable by humans from the Foods table.
+SELECT Name FROM Foods WHERE EatableByHumans = FALSE;
+
+Retrieve the names of planets with a terrain of 'Desert' from the Planets table.
+SELECT Name FROM Planets WHERE Terrain = 'Desert';
+
+Retrieve the names of planets with a terrain other than 'Desert' from the Planets table.
+SELECT Name FROM Planets WHERE Terrain <> 'Desert';
+
+Retrieve the names of ships with a crew size greater than 1 from the Ships table.
+SELECT Name FROM Ships WHERE CrewSize > 1;
+
+Retrieve the names of ships with a crew size of 1 from the Ships table.
+SELECT Name FROM Ships WHERE CrewSize = 1;
+
+Retrieve the names of planets with a population of 0 from the Planets table.
+SELECT Name FROM Planets WHERE Population = 0;
+
+Retrieve the names of characters who are younger than 50 years old from the Characters table.
+SELECT Name FROM Characters WHERE Age < 50;
