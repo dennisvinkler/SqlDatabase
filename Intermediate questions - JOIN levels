@@ -1,0 +1,20 @@
+Retrieve the names of characters along with the names of their home planets.
+List all planets along with the characters inhabiting them.
+Display all characters and their associated planets, even if some characters do not have a planet assigned.
+Find characters who have a favorite food along with the names of their favorite foods.
+Show all characters and their favorite foods, even if some characters don't have a favorite food.
+List all favorite foods and the characters who prefer them, even if some foods have not been chosen by any character.
+Retrieve characters along with the ships they own and the planets where those ships are stationed.
+Display all characters and the ships they own, even if some characters don't have any ships.
+List all ships and their owners, even if some ships do not have an owner.
+Find characters, their genders, and the types of food they prefer.
+Show all characters and the types of food they prefer, even if some characters don't have a preference.
+Retrieve all types of food and the characters who prefer them, even if some food types have no takers.
+Get characters, their genders, and the names of the planets they inhabit.
+List all characters and the names of the planets they inhabit, even if some characters are homeless.
+Display all planets and the characters who inhabit them, even if some planets are uninhabited.
+Retrieve characters, their genders, and the names of their ships.
+Show all characters and the names of their ships, even if some characters don't own any ships.
+List all ships and the characters who own them, even if some ships are ownerless.
+Get characters, their genders, and their ages, along with the names of their home planets.
+Display all characters, their ages, and the names of their home planets, even if some characters don't have a planet assigned.
