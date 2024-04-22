@@ -32,3 +32,14 @@ Planets, characters, foods, and ships are represented with relevant attributes.
 Ensure to adjust or expand the sample data according to your requirements.
 License
 This project is licensed under the MIT License.
+
+
+v1.1
+
+Here's the updated summary:
+
+Table Names: The table names were changed from singular to plural for consistency. For example, planet was changed to Planets.
+Foreign Key Constraints: Foreign key constraints were added to the character_info table to establish relationships with other tables (planet, food, and ship).
+Data Insertion: Sample data was inserted into the character_info table, which now includes foreign key references to planet, food, and ship.
+Additional Tables: character_info was added to represent characters with additional attributes like FoodID and ShipEngineNumber.
+Data Insertion for New Tables: Sample data was inserted into the food and ship tables.
